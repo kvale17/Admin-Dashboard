@@ -19,4 +19,8 @@ body {
 .main-content {
   background-color: rgb(226, 232, 240);
   grid-row: 2 / 3;
+  padding: 15px;
+
+  display: grid;
+  grid-template-columns: 3fr 1fr;
 }
