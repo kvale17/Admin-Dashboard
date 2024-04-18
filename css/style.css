@@ -27,13 +27,13 @@ body {
 
 .projects {
   display: grid;
-  grid-template-rows: 1fr 5fr;
+  grid-template-rows: 1fr 8fr;
 }
 .project-cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  padding: 30px;
+  padding-right: 30px;
 
   gap: 30px;
 }
