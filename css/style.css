@@ -40,7 +40,8 @@ body {
 }
 
 .project-card {
-  background-color: orange;
+  background-color: white;
+  border-left: 10px solid rgb(240, 180, 41);
   border-radius: 10px;
 
   width: 100%;
