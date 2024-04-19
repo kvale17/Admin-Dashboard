@@ -43,10 +43,8 @@ body {
 }
 
 .projects {
-  display: grid;
-  grid-template-rows: 80px auto;
-
-  align-items: start;
+  display: flex;
+  flex-direction: column;
 }
 .project-cards {
   display: grid;
@@ -54,7 +52,6 @@ body {
   grid-template-rows: repeat(3, 1fr);
   padding-right: 30px;
   padding-bottom: 50px;
-  
 
   gap: 30px;
 }
@@ -80,14 +77,13 @@ h1 {
   padding-bottom: 50px;
   padding-right: 30px;
 
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
+  display: flex;
+  flex-direction: column;
 }
 
 .announcements {
-  display: grid;
-  grid-template-rows: 80px auto;
+  display: flex;
+  flex-direction: column;
 
   grid-row: 1 / 2;
 }
@@ -95,19 +91,18 @@ h1 {
 .announcements-card {
   padding: 20px 40px;
 
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  display: flex;
+  flex-direction: column;
 }
 
-.announcement-item{
+.announcement-item {
   border-bottom: 1px solid black;
 }
 
 .trending {
   grid-row: 2 /3;
-  display: grid;
-  grid-template-rows: 80px auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .trending-item {
@@ -119,10 +114,8 @@ h1 {
 
 .trending-card {
   padding: 15px;
-  display: grid;
-
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  display: flex;
+  flex-direction: column;
 }
 
 .icon {
