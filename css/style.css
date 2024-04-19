@@ -61,6 +61,10 @@ body {
   padding-left: 20px;
 }
 
-h1{
-    font-size: 1.8em;
+h1 {
+  font-size: 1.8em;
+}
+
+.thin-card {
+  background-color: white;
 }
