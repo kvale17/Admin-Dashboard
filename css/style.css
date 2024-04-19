@@ -17,6 +17,8 @@ body {
 .grid-container {
   display: grid;
 
+  height: 100%;
+
   grid-template-columns: 245px auto;
   grid-template-rows: 161px auto;
 }
