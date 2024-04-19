@@ -74,12 +74,16 @@ h1 {
   border-radius: 10px;
 }
 
+.announcements {
+  display: grid;
+  grid-template-rows: 1fr 8fr;
+}
+
 .announcements-card {
   padding: 20px 40px;
 }
 
 .right-side {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr;
+  padding-bottom: 50px;
+  padding-right: 30px;
 }
