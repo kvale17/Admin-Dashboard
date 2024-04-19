@@ -97,6 +97,10 @@ h1 {
   grid-template-rows: 1fr 1fr 1fr;
 }
 
+.announcement-item{
+  border-bottom: 1px solid black;
+}
+
 .trending {
   grid-row: 2 /3;
   display: grid;
