@@ -100,14 +100,18 @@ h1 {
   grid-template-rows: 80px auto;
 }
 
-.icon {
-  width: 70px;
-  height: 70px;
-}
-
 .trending-item {
   display: grid;
   grid-template-columns: 1fr 4fr;
+}
+
+.trending-card {
+  padding: 15px;
+}
+
+.icon {
+  width: 70px;
+  height: 70px;
 }
 
 .user {
@@ -115,8 +119,4 @@ h1 {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
   align-self: center;
-}
-
-.trending-card {
-  padding: 15px;
 }
