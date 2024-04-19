@@ -45,6 +45,8 @@ body {
 .projects {
   display: grid;
   grid-template-rows: 80px auto;
+
+  align-items: start;
 }
 .project-cards {
   display: grid;
@@ -52,6 +54,7 @@ body {
   grid-template-rows: repeat(3, 1fr);
   padding-right: 30px;
   padding-bottom: 50px;
+  
 
   gap: 30px;
 }
