@@ -74,16 +74,49 @@ h1 {
   border-radius: 10px;
 }
 
+.right-side {
+  padding-bottom: 50px;
+  padding-right: 30px;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
 .announcements {
   display: grid;
-  grid-template-rows: 1fr 8fr;
+  grid-template-rows: 1fr 4fr;
+
+  grid-row: 1 / 2;
 }
 
 .announcements-card {
   padding: 20px 40px;
 }
 
-.right-side {
-  padding-bottom: 50px;
-  padding-right: 30px;
+.trending {
+  grid-row: 2 /3;
+  display: grid;
+  grid-template-rows: 1fr 4fr;
+}
+
+.icon {
+  width: 70px;
+  height: 70px;
+}
+
+.trending-item {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.user {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-self: center;
+}
+
+.trending-card {
+  padding: 15px;
 }
