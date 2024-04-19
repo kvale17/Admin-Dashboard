@@ -152,4 +152,5 @@ h3 {
 
 .card{
   margin-top: 20px;
+  flex-grow: 1;
 }
