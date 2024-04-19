@@ -67,3 +67,7 @@ h1 {
   background-color: white;
   border-radius: 10px;
 }
+
+.announcements-card {
+  padding: 20px 40px;
+}
