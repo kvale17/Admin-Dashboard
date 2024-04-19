@@ -92,6 +92,10 @@ h1 {
 
 .announcements-card {
   padding: 20px 40px;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
 .trending {
@@ -107,6 +111,10 @@ h1 {
 
 .trending-card {
   padding: 15px;
+  display: grid;
+
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 .icon {
