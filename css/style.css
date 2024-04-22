@@ -19,7 +19,7 @@ body {
 
   height: 100%;
 
-  grid-template-columns: 245px auto;
+  grid-template-columns: 300px auto;
   grid-template-rows: 161px auto;
 }
 
@@ -33,6 +33,60 @@ body {
 .sidebar {
   background-color: rgb(25, 146, 212);
   grid-row: 1 / 3;
+
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+  gap: 50px;
+  color: white;
+  font-weight: bolder;
+}
+
+.sidebar img {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(182deg)
+    brightness(103%) contrast(101%);
+}
+
+.dashboard-logo {
+  font-size: 25px;
+}
+
+.dashboard-logo img {
+  width: 60px;
+  height: 60px;
+  padding-left: 11px;
+}
+
+.options div img {
+  width: 30px;
+  height: 30px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+
+  gap: 25px;
+
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.options div {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.dashboard-logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#communities {
+  margin-bottom: 30px;
 }
 
 .main-content {
@@ -85,7 +139,7 @@ h1 {
   flex-direction: column;
 
   gap: 10px;
-  font-size: .84em;
+  font-size: 0.84em;
 }
 
 .announcements {
@@ -113,7 +167,7 @@ h1 {
   flex-direction: column;
 
   height: 50%;
-  font-size: 1.1em;;
+  font-size: 1.1em;
 }
 
 .trending-item {
@@ -154,7 +208,7 @@ h3 {
   margin-bottom: 0;
 }
 
-.card{
+.card {
   margin-top: 20px;
   flex-grow: 1;
 }
