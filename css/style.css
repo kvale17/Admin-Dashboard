@@ -163,6 +163,7 @@ h1 {
 
 .announcement-item {
   border-bottom: 1px solid black;
+  height: 100%;
 }
 
 .trending {
