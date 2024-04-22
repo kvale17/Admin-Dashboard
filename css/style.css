@@ -179,6 +179,7 @@ h1 {
   grid-template-columns: 1fr 2fr;
 
   justify-items: center;
+  height: 100%;
 }
 
 .trending-card {
