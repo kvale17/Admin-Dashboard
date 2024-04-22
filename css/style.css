@@ -20,7 +20,7 @@ body {
   height: 100%;
 
   grid-template-columns: 300px auto;
-  grid-template-rows: 161px auto;
+  grid-template-rows: 200px auto;
 }
 
 .main-header {
@@ -77,6 +77,10 @@ body {
   display: flex;
   align-items: center;
   gap: 30px;
+
+  cursor: pointer;
+
+  width: 50%;
 }
 
 .dashboard-logo {
@@ -121,6 +125,7 @@ body {
   padding-right: 100px;
   padding-left: 20px;
   min-width: 297px;
+  cursor: pointer;
 }
 
 h1 {
@@ -164,6 +169,7 @@ h1 {
 .announcement-item {
   border-bottom: 1px solid black;
   height: 100%;
+  cursor: pointer;
 }
 
 .trending {
@@ -180,6 +186,7 @@ h1 {
 
   justify-items: center;
   height: 100%;
+  cursor: pointer;
 }
 
 .trending-card {
@@ -204,7 +211,7 @@ h1 {
   justify-self: start;
 }
 
-.handle-user{
+.handle-user {
   font-weight: bold;
 }
 
@@ -220,4 +227,84 @@ h3 {
 .card {
   margin-top: 20px;
   flex-grow: 1;
+}
+
+.main-header {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: repeat(2, 1fr);
+
+  padding-left: 30px;
+  padding-right: 50px;
+}
+
+.header-options {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+
+  gap: 60px;
+}
+
+.header-button {
+  width: 25%;
+  height: 50%;
+  background-color: rgb(25, 146, 212);
+  color: white;
+  font-weight: bold;
+  border-radius: 1.5em;
+  border: 0cap;
+  cursor: pointer;
+}
+
+.header-user {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+
+  gap: 40px;
+  font: 1.5em sans-serif;
+  font-weight: bold;
+}
+
+#bell,
+.search-icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.greeting {
+  display: flex;
+  align-items: center;
+
+  gap: 20px;
+  font-weight: bold;
+}
+
+.greeting-icon {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+#greeting-user {
+  font-size: 1.7em;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+
+  gap: 15px;
+}
+
+#search-bar {
+  width: 90%;
+  height: 45%;
+  border-radius: 1.5rem;
+  text-indent: 30px;
+  font-size: large;
+  background-color: rgb(226, 232, 240);
 }

@@ -10,7 +10,28 @@
 
 <body>
     <div class="grid-container">
-        <div class="main-header"></div>
+        <div class="main-header">
+            <div class="search">
+                <img class="icon search-icon" src="./img/icons/search.svg" alt="search">
+                <input id="search-bar" type="search">
+            </div>
+            <div class="header-user">
+                <img id="bell" src="./img/icons/bell.svg" alt="bell">
+                <img class="icon" src="./img/avatar-default.png" alt="default-avatar">
+                <span class="name">Morgan Oakley</span>
+            </div>
+            <div class="greeting">
+                <img class="greeting-icon" src="./img/avatar-default.png" alt="default-avatar">
+                <p class="greeting-text">Hi there,<br></br>
+                    <span id="greeting-user">Morgan Oakley (@morgan)</span>
+                </p>
+            </div>
+            <div class="header-options">
+                <button class="header-button" id="new">New</button>
+                <button class="header-button" id="upload">Upload</button>
+                <button class="header-button" id="share">Share</button>
+            </div>
+        </div>
         <div class="sidebar">
             <div class="dashboard-logo">
                 <img src="./img/icons/dashboard.svg" alt="dashboard">
