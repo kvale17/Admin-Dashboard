@@ -147,6 +147,7 @@ h1 {
   overflow: hidden;
 
   height: 100%;
+  font-size: .8em;
 }
 
 .announcements-card {
@@ -173,6 +174,7 @@ h1 {
   grid-row: 2 / 3;
 
   min-width: 255px;
+  font-size: .9em;
 }
 
 .trending-item {
