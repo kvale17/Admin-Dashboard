@@ -250,6 +250,8 @@ h3 {
   border-radius: 1.5em;
   border: 0cap;
   cursor: pointer;
+
+  min-width: 94px;
 }
 
 .header-user {
