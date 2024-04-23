@@ -19,7 +19,7 @@ body {
 
   height: 100%;
 
-  grid-template-columns: 300px auto;
+  grid-template-columns: minmax(250px, 300px) auto;
   grid-template-rows: 200px auto;
 }
 
