@@ -125,10 +125,17 @@ body {
   border-left: 10px solid rgb(240, 180, 41);
 
   padding-top: 10px;
-  padding-right: 100px;
+  padding-right: 30px;
   padding-left: 20px;
   min-width: 297px;
-  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-text {
+  padding-right: 50px;
 }
 
 h1 {
@@ -147,7 +154,7 @@ h1 {
   overflow: hidden;
 
   height: 100%;
-  font-size: .8em;
+  font-size: 0.8em;
 }
 
 .announcements-card {
@@ -174,7 +181,7 @@ h1 {
   grid-row: 2 / 3;
 
   min-width: 255px;
-  font-size: .9em;
+  font-size: 0.9em;
 }
 
 .trending-item {
@@ -306,4 +313,20 @@ h3 {
   text-indent: 30px;
   font-size: large;
   background-color: rgb(226, 232, 240);
+}
+
+.icons img {
+  width: 30px;
+  height: 30px;
+
+  cursor: pointer;
+}
+
+.icons {
+  align-self: end;
+  justify-self: end;
+  padding-bottom: 30px;
+
+  display: flex;
+  gap: 30px;
 }
